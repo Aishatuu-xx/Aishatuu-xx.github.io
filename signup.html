@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign Up |Maisha Tech School</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tech School</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="enrollnow.html">Enroll Now</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup-section" id="signup">
+        <h1>Create Your Account</h1>
+        <p>Join us to start your journey in the tech world!</p>
+
+        <form id="signupForm" class="signup-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error" id="usernameError">Please enter a username</span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError">Please enter a valid email</span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error" id="passwordError">Password must be at least 6 characters</span>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <span class="error" id="confirmPasswordError">Passwords do not match</span>
+            </div>
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Tech School. All rights reserved.</p>
+    </footer>
+
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="support.css">
+    <title>Support |MaishaTech School</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+            <img src="logo tech.png" width="50">
+            MaishaTech School Support</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Support</h1>
+            <p>Here to help you with any questions or issues you may have.</p>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">How can I reset my password?<span class="plus-icon">+</span></div>
+            <div class="answer">To reset your password, click on 'Forgot Password?' on the login page and follow the instructions.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">What should I do if I encounter a technical issue?<span class="plus-icon">+</span></div>
+            <div class="answer">If you encounter a technical issue, please contact our support team through the contact form below.</div>
+        </div>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">Where can I find course materials?<span class="plus-icon">+</span></div>
+            <div class="answer">Course materials are available in your student dashboard after logging in.</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="#">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Tech School. All rights reserved.</p>
+    </footer>
+
+    <script src="support.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="enrollnow.css">
+    <title>Enroll Now |Maisha Tech School</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">      
+              <div class="logo">
+            <a href="index.html"> <img src="logo tech.png" width="30"> Maisha Tech</a>
+        </div>
+                    <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="enrollnow.html">Enroll Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="enroll" class="enroll-section">
+        <h1>Enroll Now</h1>
+        <form id="enrollmentForm" class="enrollment-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error" id="nameError">Please enter your name</span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError">Please enter a valid email</span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="error" id="phoneError">Please enter your phone number</span>
+            </div>
+            <div class="form-group">
+                <label for="course">Select Course</label>
+                <select id="course" name="course" required>
+                    <option value="">Choose a course</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="digital-marketing">Digital Marketing</option>
+                    <option value="digital-marketing">Cyber Security</option>
+                    <option value="digital-marketing">Artificial Intelligence[AI]</option>
+
+
+                </select>
+                <span class="error" id="courseError">Please select a course</span>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Tech School. All rights reserved.</p>
+    </footer>
+
+    <script src="enrollnow.js"></script>
+</body>
+</html>

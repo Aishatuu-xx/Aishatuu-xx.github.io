@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login |Maisha Tech School</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tech School</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="enrollnow.html">Enroll Now</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login-section" id="login">
+        <h1>Welcome Back!</h1>
+        <p>Please log in to your account.</p>
+
+        <form id="loginForm" class="login-form">
+            <div class="form-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error" id="usernameError">Please enter your username or email</span>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error" id="passwordError">Please enter your password</span>
+            </div>
+            <button type="submit" class="submit-btn">Login</button>
+        </form>
+
+        <div class="footer-links">
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p><a href="#forgot-password" id="resetPassword">Forgot Password?</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Tech School. All rights reserved.</p>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
